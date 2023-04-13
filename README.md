@@ -1,7 +1,13 @@
 <p align="justify">The reported results in this study were achieved through the help of <b>Elliot Framework</b>, which is published by Anelli et al. So, we refer official web  <a href="https://elliot.readthedocs.io/en/latest/guide/alg_intro.html">Documentation</a> and  <a href="https://github.com/sisinflab/elliot">GitHub</a> page to ensure the reproducibility. </p>
-<p align="justify">The shared repository contains configuration files and datasets, which are used in this analysis. Especially, there are two type of configuration files inside the <em>"config_files"</em> folder. The tuned configure files have different ranges of hyperparameters and used to tuned the selected algorithm while the untuned configuration files contain randomly selected hyperparameter of the algorithms to check how they behave if hyperparameter selection is not done in a proper way. In addition, optimal ranges of hyperparameters and performance of algorithm with additional metrics can be seen in the folder with name <em>"Additional material"</em></p>
+<p align="justify">The shared repository contains configuration files and datasets, which are used in this analysis. Especially, there are two type of configuration files inside the <em>"config_files"</em> folder. The tuned configure files have different ranges of hyperparameters and used to tuned the selected algorithm while the untuned configuration files contain randomly selected hyperparameter of the algorithms to check how they behave if hyperparameter selection is not done in a proper way. In addition, optimal ranges of hyperparameters and performance of algorithm with additional metrics can be seen in the folder with named <em>"Additional material"</em></p>
 
 <h3>Installation guide</h3>
+<p>Elliot works with the following operating systems:</p>
+<ul>
+  <li>Linux</li>
+  <li>Windows 10</li>
+  <li>macOS X</li>
+</ul> 
 <p>Elliot requires Python version 3.6 or later.
 <br>
 Elliot requires tensorflow version 2.3.2 or later. If you want to use Elliot with GPU, please ensure that CUDA or cudatoolkit version is 7.6 or later. This requires NVIDIA driver version >= 10.1 (for Linux and Windows10)</p>
