@@ -14,7 +14,7 @@ Elliot requires tensorflow version 2.3.2 or later. If you want to use Elliot wit
 <h4>Install from source</h4>
 <h4>CONDA</h4>
 <pre>
-  git clone https://github.com//sisinflab/elliot.git && cd elliot
+  git clone https://github.com//Faisalse/elliot.git && cd elliot
   conda create --name elliot_env python=3.8
   conda activate
   pip install --upgrade pip
@@ -22,7 +22,7 @@ Elliot requires tensorflow version 2.3.2 or later. If you want to use Elliot wit
 </pre>
 <h4>VIRTUALENV</h4>
 <pre>
-  git clone https://github.com//sisinflab/elliot.git && cd elliot
+  git clone https://github.com//Faisalse/elliot.git && cd elliot
   virtualenv -p /usr/bin/python3.8 venv # your python location and version
   source venv/bin/activate
   pip install --upgrade pip
