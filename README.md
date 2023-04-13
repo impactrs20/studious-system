@@ -34,11 +34,12 @@ Elliot requires tensorflow version 2.3.2 or later. If you want to use Elliot wit
   python start_experiments_for_reproduceability.py
 </pre>
 <h3>Datasets</h3>
-<p align="justify">In data folder, you can find (Movilens 1M, Amazon Digital Music, Epionions) datasets, which are used in this reproducibility study.  We also share the original data file and split version of each dataset to carry out experiment with same settings. Below table gives statistics of the selected datasets and we use same p-core and filtering operations values, which are mentioned in [1] to avoid any biasness. </p>
+<p align="justify">In data folder, you can find (Movilens 1M, Amazon Digital Music, Epionions) datasets, which are used in this reproducibility study.  We also share the original data file and split version of each dataset to carry out experiment with same settings. Below table gives statistics of the selected datasets and we use same p-core and filtering operations values, which are mentioned in [1] to avoid any biasness in our experiments. </p>
 
+<p align="justify">
 <code>
 [1] Anelli, Vito Walter, et al. "Top-n recommendation algorithms: A quest for the state-of-the-art." Proceedings of the 30th ACM Conference on User Modeling, Adaptation and Personalization. 2022.
-</code>
+</code></p>
 
 <table style="width:100%">
   <tr style="text-align: center">
